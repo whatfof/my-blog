@@ -1,0 +1,33 @@
+title: 我的个人博客
+subtitle: 记录 · 分享 · 思考
+description: 一个基于 Hexo + NexT 的个人博客
+author: 你的名字
+language: zh-CN
+timezone: Asia/Shanghai
+
+url: https://yourname.github.io
+root: /
+
+# 主题
+theme: next
+
+# 站点目录
+source_dir: source
+public_dir: public
+
+# 部署（Hexo-deployer-git）
+deploy:
+  type: git
+  repo: https://github.com/yourname/yourname.github.io.git
+  branch: main
+
+# 插件（请在 package.json 中安装对应插件）
+plugins:
+  - hexo-generator-sitemap
+  - hexo-generator-feed
+  - hexo-generator-index
+  - hexo-deployer-git
+
+# sitemap 配置
+sitemap:
+  path: sitemap.xml

@@ -1,0 +1,19 @@
+{
+  "name": "my-hexo-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "hexo server",
+    "build": "hexo clean && hexo generate",
+    "deploy": "hexo deploy || true"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "hexo": "^6.3.0",
+    "hexo-cli": "^5.2.0",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-generator-sitemap": "^2.0.0",
+    "hexo-generator-feed": "^4.0.0",
+    "hexo-renderer-marked": "^4.0.0"
+  }
+}
